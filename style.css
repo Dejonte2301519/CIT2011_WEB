@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2;
+    padding: 2;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid rgb(47, 47, 74);
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+textarea {
+    height: 80px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+@media (max-width: 200px) {
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    table {
+        font-size: 16px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
